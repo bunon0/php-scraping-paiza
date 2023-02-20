@@ -1,11 +1,11 @@
 # php-scraping-practice
-PHPでスクレイピングをやってみる
+PHPでスクレイピングをして、paizaのスキルチェックのデータを収集する。
 
 ## GitHub
 https://github.com/bunon0/php-scraping-practice
 
 ## ゴール
-Web幹事のデータをPHPでスクレイピング出来るようになること。
+paizaのデータをPHPでスクレイピング出来るようになること。
 
 ## 環境
 - MAMP
