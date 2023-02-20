@@ -5,33 +5,18 @@ use PHPHtmlParser\Dom;
 use PHPHtmlParser\Options;
 
 
+$url = 'https://paiza.jp/challenges/info';
 
-function getUrlContent()
-{
-  $url = 'https://web-kanji.com/';
-  $dom = new Dom();
-  $options = new Options();
-  $options->setEnforceEncoding('utf8');
+// $dom = new Dom();
+// $options = new Options();
+// $options->setEnforceEncoding('utf8');
+// $dom->loadFromUrl($url, $options);
 
-  $dom->loadFromUrl($url, $options);
-
-  sleep(1);
-
-
-  return $dom;
-}
-
-
-$test = getUrlContent();
-
-'<pre>';
-var_dump($test);
-'</pre>';
-
+// echo $titleEl = $dom->find('.c-h2');
 
 ?>
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -45,4 +30,4 @@ var_dump($test);
 
 </body>
 
-</html> -->
+</html>
